@@ -1,0 +1,9 @@
+snapshot: nightly-2025-07-01
+
+extra-deps:
+  - filepath-1.5.4.0
+
+#extra-deps:
+  # - process-1.6.26.1@sha256:6def2e07c317f52f4d30c43e92f97b7bc5f7c27cb1270d386b15dce429e1180f,2947
+  # - directory-1.3.9.0@sha256:2490137bb7738bd79392959458ef5f276219ea5ba8a9a56d3e0b06315c1bb917,3307
+  # - filepath-1.4.301.0@sha256:02ca59b1c88ef5640db00b38aff713403c1b3481475b529a6fcc4c9f70a293ee,5900

@@ -21,7 +21,7 @@ module System.Posix.Temp.PosixString (
 
 #include "HsUnix.h"
 
-#if MIN_VERSION_filepath(1, 5, 0)
+#if 1
 import qualified "os-string" System.OsString.Data.ByteString.Short as BC
 #else
 import qualified "filepath" System.OsPath.Data.ByteString.Short as BC

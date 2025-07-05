@@ -16,7 +16,7 @@ import System.Posix.IO (defaultFileFlags, OpenFileFlags(..), OpenMode(..))
 import System.Posix.ByteString.FilePath
 
 import qualified Data.ByteString.Char8 as C
-#if MIN_VERSION_filepath(1, 5, 0)
+#if 1
 import qualified "os-string" System.OsString.Data.ByteString.Short as SBS
 #else
 import qualified "filepath" System.OsPath.Data.ByteString.Short as SBS

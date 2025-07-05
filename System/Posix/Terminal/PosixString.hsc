@@ -77,7 +77,7 @@ import System.Posix.Terminal.Common
 import Data.ByteString.Char8 as B ( pack, )
 import System.Posix.IO.ByteString (defaultFileFlags, openFd, noctty, OpenMode(ReadWrite))
 import System.OsString.Internal.Types (PosixString(..))
-#if MIN_VERSION_filepath(1,5,0)
+#if 1
 import qualified System.OsString.Data.ByteString.Short as SBS
 import qualified System.OsString.Data.ByteString.Short as BC
 #else

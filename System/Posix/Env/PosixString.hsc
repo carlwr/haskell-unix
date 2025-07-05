@@ -43,7 +43,7 @@ import GHC.IO.Encoding.Failure ( CodingFailureMode(..) )
 import System.Posix.Env ( clearEnv )
 import System.OsPath.Posix
 import System.OsString.Internal.Types
-#if MIN_VERSION_filepath(1, 5, 0)
+#if 1
 import qualified "os-string" System.OsString.Data.ByteString.Short as B
 #else
 import qualified "filepath" System.OsPath.Data.ByteString.Short as B

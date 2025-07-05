@@ -46,7 +46,7 @@ import Data.ByteString.Internal (c_strlen)
 import Control.Monad
 import Control.Exception
 import System.OsPath.Posix as PS
-#if MIN_VERSION_filepath(1, 5, 0)
+#if 1
 import "os-string" System.OsString.Data.ByteString.Short as BSS
 #else
 import "filepath" System.OsPath.Data.ByteString.Short as BSS
